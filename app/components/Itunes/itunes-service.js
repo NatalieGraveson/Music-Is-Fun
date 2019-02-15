@@ -38,4 +38,4 @@ class ItunesService {
 
 
 
-export default ItunesService
+export default ItunesService 

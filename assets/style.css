@@ -1,0 +1,37 @@
+#songs {
+    width: fit-content;
+}
+ body{
+  background-attachment: fixed; 
+   background-size: cover; 
+  width: 100vw; 
+  height: auto; 
+  
+}
+
+@media only screen and (max-width: 450px) {
+     body {
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+     }
+}
+
+.buttons {
+  padding-top: 93px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap
+}
+.middle {
+    padding-bottom: 595px;
+}
+
+ 
+ 
+ 
+
+ 
