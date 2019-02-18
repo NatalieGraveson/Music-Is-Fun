@@ -11,6 +11,9 @@ function drawSongs(result) {
     template += song.getTemplate()
   });
   document.querySelector('#songs').innerHTML = template;
+
+
+
 }
 
 
@@ -30,7 +33,16 @@ class ItunesController {
     itunesService.getMusicByArtist(artist)
   }
 
+
+
+
+
+
+
 }
+
+
+
 
 
 export default ItunesController

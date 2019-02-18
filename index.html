@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Music Is Fun!</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Lemon" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
@@ -14,10 +15,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 buttons">
-                <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
+                <form class="form-inline" onsubmit=" app.controllers.itunesCtrl.getMusic(event)">
                     <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
                     <div class="form-group">
-                        <input type="text" class="form-control" name="artist" placeholder="Artist Name" />
+                        <input type="text" class="form-control" name="artist" placeholder="Artist Name" id="artistclear" />
                         <button type="submit" class="btn btn-outline-light" id="get-music-button">Get Music</button>
                     </div>
             </div>

@@ -20,14 +20,29 @@
 
 .buttons {
   padding-top: 93px;
+  font-family: 'Lemon', cursive;
+
 }
 .card {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+   text-shadow: 2px 2px black;
+font-family: 'Lemon', cursive;
+
 }
 .middle {
     padding-bottom: 595px;
+}
+.card-img-top {
+      width: 83%;
+
+}
+h5 {
+    font-size: 23px;
+}
+ h6 {
+    font-size: 18px;
 }
 
  
